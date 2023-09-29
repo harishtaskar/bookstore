@@ -1,0 +1,24 @@
+{
+  "name": "books-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "saveDev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "pinal jay",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.5.3",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^1.1.2"
+  }
+}
